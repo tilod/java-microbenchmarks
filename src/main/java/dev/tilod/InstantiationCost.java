@@ -49,7 +49,7 @@ public class InstantiationCost {
     }
 
     @Benchmark
-    public double simpleCalculationWithoutIInstantiation() {
+    public double simpleCalculationWithoutInstantiation() {
         double sum = 0.0d;
 
         for (double d : this.doubleArray) {
@@ -60,7 +60,7 @@ public class InstantiationCost {
     }
 
     @Benchmark
-    public double complexCalculationWithoutIInstantiation() {
+    public double complexCalculationWithoutInstantiation() {
         double sum = 0.0d;
 
         for (double d : this.doubleArray) {
